@@ -428,10 +428,39 @@
             </li>
           </ul>
         </div>
+        <div class="footer-form">
+          <p>Subscribe to the newsletter</p>
+          <form>
+            <input type="mail" name="e-mail" id="e-mail" placeholder="E-mail" />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
+        <p>Leave your information and we'll call you back</p>
+        <form>
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" />
+          <br />
+          <label for="tel">Telephone</label>
+          <input type="tel" name="tel" id="tel" />
+          <br />
+          <label for="mail">E-mail</label>
+          <input type="email" name="mail" id="mail" />
+          <br />
+          <label for="comment">Comments</label>
+          <textarea name="comment" id="comment" rows="10"></textarea>
+          <br />
+          <input type="checkbox" name="" value="agree" id="agree" />
+          <label for="agree"
+            >I agree with the newsletter and accept the Terms and
+            Conditions</label
+          >
+          <br />
+          <button type="submit">Send</button>
+        </form>
         <button type="button" class="modal-btn" data-modal-close>
           <svg class="modal-close-icon">
             <use
