@@ -743,6 +743,8 @@ span.second-color-footer {
   transform: translateY(0);
 }
 
+/* ///////////MODAL WINDOW//////////////// */
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -761,6 +763,7 @@ span.second-color-footer {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms linear;
+  padding: 40px;
 }
 
 .backdrop.is-hidden .modal {
@@ -792,4 +795,7 @@ span.second-color-footer {
 .modal-close-icon {
   width: 18px;
   height: 18px;
+}
+
+.modal-title {
 }
