@@ -429,10 +429,25 @@
           </ul>
         </div>
         <div class="footer-form">
-          <p>Subscribe to the newsletter</p>
-          <form>
-            <input type="mail" name="e-mail" id="e-mail" placeholder="E-mail" />
-            <button type="submit">Subscribe</button>
+          <p class="footer-form-text">Subscribe to the newsletter</p>
+          <form class="footer-form-subscribe">
+            <input
+              type="mail"
+              name="e-mail"
+              id="e-mail"
+              class="footer-form-input"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="footer-submit-btn">
+              Subscribe
+              <svg class="footer-input-icon">
+                <use
+                  href="./images/symbol-defs.svg#icon-send"
+                  width="18"
+                  height="18"
+                ></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
@@ -483,7 +498,7 @@
               </svg>
             </div>
           </div>
-          <div class="modal-field">
+          <div class="modal-field-comment">
             <label for="comment" class="modal-label">Comments</label>
             <textarea
               name="comment"
@@ -492,7 +507,7 @@
               placeholder="Enter the text"
             ></textarea>
           </div>
-          <div class="modal-field">
+          <div class="modal-field-checkbox">
             <input
               type="checkbox"
               class="input-check"
@@ -504,14 +519,15 @@
               <span>
                 <svg class="check-icon">
                   <use
-                    href="./images/symbol-defs.svg#icon-check"
-                    width="16"
-                    height="15"
+                    href="./images/symbol-defs.svg#icon-checkbox"
+                    width="11"
+                    height="8"
                   ></use></svg></span
               >I agree with the newsletter and accept the Terms and Conditions
             </label>
           </div>
-          <button type="submit">Send</button>
+
+          <button type="submit" class="modal-submit-btn">Send</button>
         </form>
         <button type="button" class="modal-btn" data-modal-close>
           <svg class="modal-close-icon">
