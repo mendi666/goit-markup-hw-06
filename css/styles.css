@@ -742,6 +742,10 @@ span.second-color-footer {
   transform: translateY(0);
 }
 
+.footer-form {
+  margin-left: auto;
+}
+
 /* ////////////FOOTER FORM/////////////// */
 .footer-form-text {
   font-style: normal;
@@ -945,7 +949,7 @@ span.second-color-footer {
 }
 
 .modal-field {
-  margin-bottom: 28px;
+  margin-bottom: 10px;
   cursor: pointer;
 }
 
